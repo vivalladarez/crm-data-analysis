@@ -34,9 +34,9 @@
 | **Z_Revenue**               | Receita gerada por campanha (constante).                                                           |
 | **Response**                | Resposta à última campanha (1 - Sim, 0 - Não).                                                     |
 
-# Análise Exploratória 
+# Análise Exploratória dos Dados (EDA)
 
-Nesta etapa, será realizada uma análise exploratória dos dados para identificar padrões no comportamento de compra e relacionar características dos clientes com suas preferências, respondendo às seguintes perguntas:
+Nesta etapa, será realizada uma **Análise Descritiva**, **Tratamento** e **Dataviz** dos dados para identificar padrões no comportamento de compra, corrigir possiveis erros e relacionar características dos clientes com suas preferências, respondendo às seguintes perguntas:
 
 - Como a renda afeta os gastos nas categorias de produtos?
 - Qual o total de compras com e sem desconto por ano?
