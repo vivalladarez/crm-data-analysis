@@ -38,16 +38,15 @@
 
 Nesta etapa, será realizada uma análise exploratória dos dados para identificar padrões no comportamento de compra e relacionar características dos clientes com suas preferências, respondendo às seguintes perguntas:
 
-Como a renda afeta os gastos nas categorias de produtos?
-Qual o total de compras com e sem desconto por ano?
-Quais são as estatísticas de renda, compras e visitas ao site?
-Qual o total gasto por campanha?
-Quantas compras por ano, divididas por tipo (web, loja, catálogo)?
-Como o tempo desde a última compra se relaciona com a aceitação das campanhas?
-Como a idade dos clientes se distribui entre níveis educacionais e estado civil?
-Qual a taxa de reclamações por faixa etária e estado civil?
-Como o número de crianças/adolescentes no lar afeta compras com desconto?
-Essas perguntas visam identificar padrões no comportamento de compra e relacionar características dos clientes com suas preferências e atitudes.
+- Como a renda afeta os gastos nas categorias de produtos?
+- Qual o total de compras com e sem desconto por ano?
+- Quais são as estatísticas de renda, compras e visitas ao site?
+- Qual o total gasto por campanha?
+- Quantas compras por ano, divididas por tipo (web, loja, catálogo)?
+- Como o tempo desde a última compra se relaciona com a aceitação das campanhas?
+- Como a idade dos clientes se distribui entre níveis educacionais e estado civil?
+- Qual a taxa de reclamações por faixa etária e estado civil?
+- Como o número de crianças/adolescentes no lar afeta compras com desconto?
 
 # Clusterização
 
