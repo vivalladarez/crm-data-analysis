@@ -1,6 +1,15 @@
 # crm-data-analysis
 
-## Features do Dataset
+## Problemática
+
+A empresa enfrenta o desafio de melhorar significativamente a rentabilidade de suas campanhas de marketing direto. Para isso, é necessário identificar o público certo, reduzir desperdícios de recursos e implementar uma abordagem baseada em dados que maximize o lucro e gere confiança nos métodos quantitativos.
+
+## Objetivo
+**Objetivo Principal**: Desenvolver um modelo preditivo que maximize o lucro da próxima campanha de marketing direto.
+
+**Objetivo Secundário**: Fornecer insights detalhados sobre o perfil dos clientes que compraram o gadget, facilitando ações de marketing futuras.
+
+### Features do Dataset
 
 | Atributos                  | Definição                                                                                          |
 |----------------------------|----------------------------------------------------------------------------------------------------|
@@ -37,16 +46,8 @@
 # Análise Exploratória dos Dados (EDA)
 
 Nesta etapa, será realizada uma **Análise Descritiva**, **Tratamento** e **Dataviz** dos dados para identificar padrões no comportamento de compra, corrigir possiveis erros e relacionar características dos clientes com suas preferências, respondendo às seguintes perguntas:
-
-- Como a renda afeta os gastos nas categorias de produtos?
-- Qual o total de compras com e sem desconto por ano?
-- Quais são as estatísticas de renda, compras e visitas ao site?
-- Qual o total gasto por campanha?
-- Quantas compras por ano, divididas por tipo (web, loja, catálogo)?
-- Como o tempo desde a última compra se relaciona com a aceitação das campanhas?
-- Como a idade dos clientes se distribui entre níveis educacionais e estado civil?
-- Qual a taxa de reclamações por faixa etária e estado civil?
-- Como o número de crianças/adolescentes no lar afeta compras com desconto?
+- Quem são os clientes?
+- Quais são os comportamentos de Compra?
 
 # Clusterização
 
@@ -65,7 +66,7 @@ Com o tratamento e a análise exploratória dos dados já concluídos, nesta eta
 
 Após a rotulação dos dados em segmentos ou tipos de clientes, o próximo passo é desenvolver um modelo de classificação capaz de identificar a qual segmento um novo cliente pertence. Este classificador pode ser utilizado em novas bases de dados, automatizando o processo de segmentação de clientes. Para isso, os seguintes passos serão realizados:
 
-1. **Criação do conjunto de dados rotulado**: Utilizar os clusters gerados durante a etapa de clusterização para associar a cada cliente uma classe de segmento correspondente.
+1. **Seleção de Variáveis**: Utilizar os clusters gerados durante a etapa de clusterização como feature e selecionar demais atributos para o modelo.
 2. **Divisão do conjunto de dados**: Separar os dados em dois conjuntos: um para treinamento e outro para teste. Isso garante que o desempenho do classificador seja validado de forma robusta.
 3. **Escolha do modelo de classificação**: Selecionar o algoritmo de classificação mais adequado para o problema, como Árvores de Decisão, Random Forest, SVM ou KNN, conforme a natureza dos dados e a complexidade do modelo.
 4. **Treinamento do modelo**: Treinar o classificador utilizando o conjunto de dados de treino, ajustando os parâmetros para garantir que o modelo aprenda da melhor forma possível.
